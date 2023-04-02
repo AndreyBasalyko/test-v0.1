@@ -4,7 +4,7 @@ import asyncio
 
 from aiogram import Bot, Dispatcher, executor, types
 
-TOKEN = "здесьбудетваштокенот@BotFather"
+TOKEN = "6044222034:AAGJTlac_jQa-QjfSMId7IUOapuaMoaW0NE"
 MSG = "Программировал ли ты сегодня, {}?"
 
 logging.basicConfig(level=logging.INFO)
@@ -26,3 +26,4 @@ async def start_handler(message: types.Message):
 
 if __name__ == "__main__":
     executor.start_polling(dp)
+    
